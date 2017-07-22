@@ -2,8 +2,6 @@
 ## Download the data set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ## and unzip it to the folder where run_analysis.R is located
 
-#setwd("koodi/coursera/Getting_and_cleaning_data_course_project/")
-
 # Labels for activity indices
 activities <- c("walking", "walking_upstairs", "walking_downstairs", "sitting", "standing", "laying")
 

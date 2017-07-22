@@ -13,6 +13,6 @@ Raw data was collected from the accelerometers of the Samsung Galaxy S smartphon
 
 
 ## Instructions
- * Download the [source data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip the file
- * Execute run_analysis.R script from a directory that contains the unzipped UCI HAR Dataset subdirectory
+ * Download the [source data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip the file to the root where `run_analysis.R` is located. It should create `UCI HAR Dataset` subdirectory.
+ * Execute the script with `source("run_analysis.R")`
  * The script will produce tidydata.txt as an output. Features are explained in the codebook file.

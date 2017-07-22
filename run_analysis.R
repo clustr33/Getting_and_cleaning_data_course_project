@@ -39,5 +39,5 @@ library(plyr)
 tidy <- ddply(alldata, c("activity", "subject"), colwise(mean))
 
 ## Write output
-write.table(tidy, "tidy.txt")
+write.table(tidy, "tidydata.txt")
 

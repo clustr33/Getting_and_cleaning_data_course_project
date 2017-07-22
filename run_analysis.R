@@ -33,11 +33,11 @@ colnames(alldata)[1:(ncol(alldata)-2)] <- as.character(featurefile[,2])
 alldata <- alldata[,grep("mean\\(\\)|std\\(\\)|activity|subject", names(alldata))]
 
 
-## Calculate means by Activity and Subject with plyr.ddply (split, apply and combine)
+## Calculate means by Activity and Subject with plyr.ddply (--> split, apply mean and combine)
 
 library(plyr)
 tidy <- ddply(alldata, c("activity", "subject"), colwise(mean))
 
 ## Write output
-write.table(tidy, "tidy.txt", row.names=false)
+write.table(tidy, "tidy.txt")
 
